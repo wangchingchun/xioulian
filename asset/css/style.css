@@ -25,7 +25,7 @@ main{
     margin-bottom: 0px;
 }
 #titlec {
-    transition: opacity 1s;
+    transition: 1s;
 }
 #n_home,#n_about,#n_intro,#n_eat,#n_comp,#n_exp,#n_other,#n_dif,#n_ref{
     transition:color 1s;
@@ -36,12 +36,45 @@ main{
 }
 #titlec:hover{
     cursor: pointer;
-    opacity: 0;
+    color:white;
+}
+/*首頁*/
+.info{
+    width: 75%;
+    min-height: 370px;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3%;
+    transition: 1s;
+    text-shadow: -3px 4px 4px white;
+}
+.info:hover{
+    background-color: #cdcdcdc9;
+}
+.info_detail{
+    width: 60%;
+    margin-left:8%;
+    float: left;
+}
+.index_board{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.indexcover_img_wrap{
+    margin-top: 25px;
+    margin-left: -15px;
+    width: 30%;
+    float: left;
+}
+.cover_img{
+    width: 100%;
+    position: relative;
 }
 /*簡介*/
 .intro_cnt{
     width: 75%;
-    min-height: 500px;
+    min-height: 2700px;
     margin:30px auto;
     border-radius: 10px;
     padding:3%;
@@ -52,7 +85,7 @@ main{
     width: 100%;
 }
 .intro_cnt:hover{
-    background-color: #4f4d64;
+    background-color: #4f4d64de;
 }
 .txt{
     margin-top: 15px;
@@ -90,5 +123,5 @@ main{
     transition: 1s;
 }
 .eat_cnt:hover{
-    background-color: #decdf0;
+    background-color: #bfb2cee1;
 }

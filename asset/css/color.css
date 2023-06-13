@@ -25,6 +25,9 @@
 .f_shiro{
     color: white;
 }
+.f_purple{
+    color: #8a5fca;
+}
 .f_c1{
     color: #c3baa8;
 }
@@ -44,13 +47,13 @@
     background-color: rgba(195,186,168,0.7);
 }
 .bgo_c2{
-    background-color: #a899b9d5;
+    background-color: rgba(225, 201, 250, 0.7);
 }
 .bgo_c3{
     background-color: rgba(205,205,205,0.7);
 }
 .bgo_c4{
-    background-color: #5f5d78;
+    background-color: rgb(95, 93, 121,0.7);
 }
 .bgo_c5{
     background-color: rgba(217,181,173,0.7);

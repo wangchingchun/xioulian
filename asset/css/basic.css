@@ -8,10 +8,10 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: '新細明體';
+    font-family: '標楷體';
     background-color: #9a979c;
     background-blend-mode: multiply;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/night.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
