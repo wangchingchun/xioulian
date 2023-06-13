@@ -1,0 +1,94 @@
+main{
+    padding-top: 56px;
+}
+.topic{
+    width: 75%;
+    min-height: 280px;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 5px 5px black;
+    transition: 1s;
+}
+.topic:hover{
+    background-color: #d9b5ad;
+}
+.topic_t{
+    padding:0 10% 0 5%;
+}
+.topic_w{
+    padding: 5%;
+}
+.t_main{
+    margin-bottom: 0px;
+}
+#titlec {
+    transition: opacity 1s;
+}
+#n_home,#n_about,#n_intro,#n_eat,#n_comp,#n_exp,#n_other,#n_dif,#n_ref{
+    transition:color 1s;
+}
+#n_home:hover,#n_about:hover,#n_intro:hover,#n_eat:hover,#n_comp:hover,#n_exp:hover,#n_other:hover,#n_dif:hover,#n_ref:hover{
+    cursor:pointer;
+    color:white;
+}
+#titlec:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+/*簡介*/
+.intro_cnt{
+    width: 75%;
+    min-height: 500px;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3%;
+    transition: 1s;
+    /*height:2300px;*/
+}
+.intro_broad{
+    width: 100%;
+}
+.intro_cnt:hover{
+    background-color: #4f4d64;
+}
+.txt{
+    margin-top: 15px;
+    line-height: 35px;
+}
+.about_txt{
+    line-height: 30px;
+}
+.about_title{
+    margin-top: 30px;
+}
+.cover_img_wrap{
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 18%;
+    float: left;
+}
+.cover_img{
+    width: 100%;
+}
+.info_detail{
+    width: 60%;
+    margin-left:4%;
+    float: left;
+    margin-top: -20px;
+}
+
+
+/*過程*/
+.eat_cnt{
+    width: 75%;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3%;
+    transition: 1s;
+}
+.eat_cnt:hover{
+    background-color: #decdf0;
+}
