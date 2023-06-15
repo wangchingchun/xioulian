@@ -125,3 +125,14 @@ main{
 .eat_cnt:hover{
     background-color: #bfb2cee1;
 }
+
+/*評價*/
+.intro_cntt{
+    width: 75%;
+    min-height: 500px;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3%;
+    transition: 1s;
+    /*height:2300px;*/
+}
